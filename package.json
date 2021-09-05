@@ -1,0 +1,23 @@
+{
+  "name": "geth-container",
+  "version": "1.0.0",
+  "description": "docker pull ethereum/client-go:latest",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-thomas-allen/geth-container.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason-thomas-allen/geth-container/issues"
+  },
+  "homepage": "https://github.com/jason-thomas-allen/geth-container#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
